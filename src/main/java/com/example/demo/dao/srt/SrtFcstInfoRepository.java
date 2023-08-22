@@ -22,6 +22,7 @@ public class SrtFcstInfoRepository {
     private final EntityManager entityManager;
     private final JPAQueryFactory queryFactory;
 
+    // UltraSrtNcst
     @Transactional
     public void save(UltraSrtNcst ultraSrtNcst) {
         entityManager.persist(ultraSrtNcst);

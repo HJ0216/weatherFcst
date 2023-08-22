@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -29,7 +29,6 @@ public class SrtFcstInfoServiceTest {
     SrtFcstInfoDAO srtFcstInfoDAO;
     @Autowired
     SrtFcstInfoRepository srtFcstInfoRepository;
-
 
 
     // UltraSrtNcst
@@ -47,7 +46,6 @@ public class SrtFcstInfoServiceTest {
         assertEquals(Integer.parseInt(rqstParams.getNumOfRows()), savedDataList.size());
 
     }
-
 
 
     // UltraSrtFcst

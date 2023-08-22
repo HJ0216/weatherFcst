@@ -40,6 +40,10 @@ dependencies {
 
 	implementation 'org.springframework.boot:spring-boot-starter-webflux' // HTTP 클라이언트 라이브러리
 
+	// Swagger
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+	implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+
 	// parsing
 	implementation 'org.json:json:20230227'
 	// JSONObject -> Map

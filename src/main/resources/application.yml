@@ -17,3 +17,7 @@ spring:
   # api key include
 #  profiles:
 #    include: api
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
